@@ -1,10 +1,9 @@
 const button = document.querySelector("button");
 const input = document.querySelector("input");
 const taskList = document.querySelector("#taskList");
-\button.addEventListener("click", function () {
+button.addEventListener("click", function () {
     const task = input.value;
-
-    if (task !== "") {
+ if (task !== "") {
         const li = document.createElement("li");
         li.textContent = task;
 
